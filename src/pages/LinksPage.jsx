@@ -12,14 +12,14 @@ export default function LinksPage() {
         <div className="mb-6">
           <LinkButton label="Portfolio" href="https://jaihari.dev/" />
           <LinkButton label="Resume" href="https://jaihari.dev/resume/JaiHari-Data-Analyst-Resume.pdf" />
-          <LinkButton
+          {/* <LinkButton
             label={
               <span className="flex items-center gap-2">
                 Message on <FaXTwitter />
               </span>
             }
             href="https://twitter.com/messages/compose?recipient_id=2008022900415352832"
-          />
+          /> */}
         </div>
         <SocialButton />
       </div>
