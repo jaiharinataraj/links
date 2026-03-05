@@ -1,0 +1,32 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-focus-ring-color: transparent;
+  outline: none;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@import "tailwindcss";
+
+@layer components {
+
+.hero-link {
+  @apply 
+        px-4 py-3 sm:py-3
+        text-base font-semibold
+        rounded-full
+        text-gray-800 border border-gray-300 bg-gray-100 hover:border-gray-800  transition-all duration-300
+        flex items-center justify-center gap-2
+        backdrop-blur-md;
+}
+
+.gradient-text {
+  @apply text-transparent bg-clip-text
+         bg-[linear-gradient(90deg,#0096FF_0%,#BB64FF_35%,#F2416B_70%,#EB7500_100%)];
+}
+}
