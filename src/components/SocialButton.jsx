@@ -2,7 +2,6 @@ import {
   FaGithub,
   FaLinkedinIn,
   FaXTwitter,
-  FaInstagram,
 } from "react-icons/fa6";
 
 export default function SocialButton() {
@@ -16,7 +15,15 @@ export default function SocialButton() {
 
       {/* Social Icons */}
       <div className="flex justify-center gap-5 text-3xl text-gray-600">
-<a
+        <a
+          href="https://github.com/ijaihari"
+          target="_blank"
+          className="hover:text-black transition hover:scale-110"
+        >
+          <FaGithub />
+        </a>
+
+        <a
           href="https://linkedin.com/in/jaihari"
           target="_blank"
           className="hover:text-black transition hover:scale-110"
@@ -25,27 +32,11 @@ export default function SocialButton() {
         </a>
 
         <a
-          href="https://github.com/ijaihari"
-          target="_blank"
-          className="hover:text-black transition hover:scale-110"
-        >
-          <FaGithub />
-        </a>
-      
-        <a
           href="https://x.com/ijaihari"
           target="_blank"
           className="hover:text-black transition hover:scale-110"
         >
           <FaXTwitter />
-        </a>
-
-        <a
-          href="https://instagram.com/ijaihari"
-          target="_blank"
-          className="hover:text-black transition hover:scale-110"
-        >
-          <FaInstagram />
         </a>
 
       </div>
