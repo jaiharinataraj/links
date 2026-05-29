@@ -10,11 +10,12 @@ export default function Profile() {
                     className="w-36 h-36 border-2 border-gray-300 rounded-full mb-7"
                 />
 
-                <span className="absolute -bottom-1 right-5
-                 px-3 py-1 text-xs tracking-tight 
+                <span className="absolute -bottom-1 right-5 px-3 py-1 text-xs tracking-tight 
                  font-semibold rounded-full text-gray-800
                  shadow-xs backdrop-blur-sm  bg-gray-100/20 border border-gray-300">
-                    Open to Work
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        Open to Work
+                    </a>
                 </span>
 
             </div>

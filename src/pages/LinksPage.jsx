@@ -11,7 +11,7 @@ export default function LinksPage() {
         <Profile />
         <div className="mb-6">
           <LinkButton label="Portfolio" href="https://jaihari.dev/" />
-          <LinkButton label="Resume" href="https://jaihari.dev/resume/JaiHari-Data-Analyst-Resume.pdf" />
+          <LinkButton label="Resume" href="https://jaihari.dev/resume/Jai_Hari_Nataraj_Data_Analyst_Resume.pdf" />
           {/* <LinkButton
             label={
               <span className="flex items-center gap-2">
