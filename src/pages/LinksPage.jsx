@@ -10,8 +10,8 @@ export default function LinksPage() {
       <div className="w-full max-w-xs space-y-4">
         <Profile />
         <div className="mb-6">
-          <LinkButton label="Portfolio" href="https://jaihari.dev/" />
-          <LinkButton label="Resume" href="https://jaihari.dev/resume/Jai_Hari_Nataraj_Data_Analyst_Resume.pdf" />
+          <LinkButton label="Portfolio" href="https://jaiharinataraj.com/" />
+          <LinkButton label="Resume" href="https://jaiharinataraj.com/resume/Jai_Hari_Nataraj_Data_Analyst_Resume.pdf" />
           {/* <LinkButton
             label={
               <span className="flex items-center gap-2">

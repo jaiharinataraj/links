@@ -16,7 +16,7 @@ export default function SocialButton() {
       {/* Social Icons */}
       <div className="flex justify-center gap-5 text-3xl text-gray-600">
         <a
-          href="https://github.com/ijaihari"
+          href="https://github.com/jaiharinataraj"
           target="_blank"
           className="hover:text-black transition hover:scale-110"
         >
@@ -24,7 +24,7 @@ export default function SocialButton() {
         </a>
 
         <a
-          href="https://linkedin.com/in/jaihari"
+          href="https://linkedin.com/in/jaiharinataraj"
           target="_blank"
           className="hover:text-black transition hover:scale-110"
         >
@@ -32,7 +32,7 @@ export default function SocialButton() {
         </a>
 
         <a
-          href="https://x.com/ijaihari"
+          href="https://x.com/jaiharinataraj"
           target="_blank"
           className="hover:text-black transition hover:scale-110"
         >
